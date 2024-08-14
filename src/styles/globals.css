@@ -2,32 +2,56 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+/* robik font */
+@font-face {
+  font-family: Robik;
+  src: url("../components/fonts/robik/RubikMonoOne-Regular.ttf") format("ttf"),
+    url("../components/fonts/robik/RubikMonoOne-Regular.woff") format("woff");
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+/* josefin font */
+@font-face {
+  font-family: josefin;
+  src: url("../components/fonts/josefin/Oswald-Bold.ttf") format("ttf"),
+    url("../components/fonts/josefin/Oswald-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
 }
-
+@font-face {
+  font-family: josefin;
+  src: url("../components/fonts/josefin/Oswald-ExtraLight.ttf") format("ttf"),
+    url("../components/fonts/josefin/Oswald-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: josefin;
+  src: url("../components/fonts/josefin/Oswald-Light.ttf") format("ttf"),
+    url("../components/fonts/josefin/Oswald-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: josefin;
+  src: url("../components/fonts/josefin/Oswald-Medium.ttf") format("ttf"),
+    url("../components/fonts/josefin/Oswald-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: josefin;
+  src: url("../components/fonts/josefin/Oswald-Regular.ttf") format("ttf"),
+    url("../components/fonts/josefin/Oswald-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: josefin;
+  src: url("../components/fonts/josefin/Oswald-SemiBold.ttf") format("ttf"),
+    url("../components/fonts/josefin/Oswald-SemiBold.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+  font-family: josefin;
+  font-weight: 500;
 }
