@@ -3,7 +3,7 @@ import React from "react";
 function Banner() {
   return (
     <div>
-      <div className="flex gap-10 justify-start flex-col-reverse md:flex md:justify-between md:items-center text-gray-650 sm:flex-row h-[600px]  py-10 container xl:max-w-screen-xl  ">
+      <div className="flex gap-10 justify-start flex-col-reverse md:flex md:justify-between md:items-center text-gray-650 sm:flex-row h-fit  py-10 container xl:max-w-screen-xl  ">
         <div>
           <h1 className="border-b-4 inline-block pb-3 mb-5 border-blue-400 text-lg font-bold text-gray-700">Dariyshop</h1>
           <h4 className="text-sm mb-2">container xl:max-w-screen-xl</h4>

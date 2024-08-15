@@ -18,7 +18,7 @@ function Layout({ children }) {
       {children}
 
       <footer>
-        <p className="bg-blue-400 p-2 text-center text-white tracking-wider">
+        <p className="bg-blue-400 p-2 text-center text-white tracking-wider text-xs md:text-md">
          Made with
           &#128151;
          by Mohammad Mazari
