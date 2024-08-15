@@ -2,6 +2,7 @@ import Attributs from "../modules/Attributs"
 import Banner from "../modules/Banner"
 import Companies from "../modules/Companies"
 import Difinaton from "../modules/Difinaton"
+import Instruction from "../modules/Instruction"
 
 
 function Homepaeg() {
@@ -11,6 +12,7 @@ function Homepaeg() {
     <Attributs/>
     <Difinaton/>
     <Companies/>
+    <Instruction/>
    </>
   )
 }

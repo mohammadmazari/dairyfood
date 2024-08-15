@@ -14,8 +14,8 @@ function Banner() {
           </p>
           <button className="mt-10 text-sm md:text-xl bg-blue-400 p-2 md:p-5 rounded-md md:rounded-xl text-white font-bold w-20 md:w-40 ">See All</button>
         </div>
-        <div >
-          <figure>
+        <div className="h-[350px]  bg-[url(/images/banner.png)] bg-fixed bg-contain bg-no-repeat bg-center md:bg-none" >
+          <figure className=" hidden md:inline-block">
             <img className="w-[100%]" src="/images/banner.png"></img>
           </figure>
         </div>
