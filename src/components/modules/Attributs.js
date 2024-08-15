@@ -7,7 +7,7 @@ import Clock from "../icons/Clock";
 function Attributs() {
   return (
     <div className="container xl:max-w-screen-xl">
-      <p className="text-lg py-2 text-blue-400 font-bold">Why us?</p>
+      <p className="text-lg py-2 text-blue-400 font-bold lg:text-lg">Why us?</p>
       <div className="flex gap-5 [&_p]:w-[45%] [&_p]:text-gray-700 [&_p]:text-xs [&_p]:flex [&_p]:justify-center md:flex-nowrap md:mt-5 md:[&_p]:text-md lg:[&_p]:text-lg [&_p]:flex-col [&_p]:items-center [&_p]:gap-5 [&_p]:p-10 [&_p]:rounded-md [&_p]:shadow-xl justify-center  flex-wrap">
         <p>
           <Fast />

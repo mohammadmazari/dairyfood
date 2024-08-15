@@ -1,13 +1,9 @@
-import Attributs from '../components/modules/Attributs'
-import Banner from '@/components/modules/Banner'
-import React from 'react'
+import Homepaeg from "@/components/template/Homepaeg"
+
 
 function Index() {
   return (
-   <>
-    <Banner/>
-    <Attributs/>
-   </>
+   <Homepaeg/>
   )
 }
 
