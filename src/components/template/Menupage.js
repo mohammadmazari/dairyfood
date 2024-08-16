@@ -3,6 +3,7 @@ import Card from "../modules/Card";
 function MenuPage({ data }) {
   return (
     <div className=" container xl:max-w-screen-xl py-20">
+      
       <h1 className="text-blue-400 text-lg border-b-4 font-bold mb-7 border-blue-400 pb-1 inline-block">
         Menu
       </h1>
