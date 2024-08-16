@@ -1,7 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+:root {
+  --BaceColor:#60a5fa;
+  --ColorText: #514537;
+}
 /* robik font */
 @font-face {
   font-family: Robik;
