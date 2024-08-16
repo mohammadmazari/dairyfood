@@ -6,7 +6,7 @@ import Binance from "../icons/Binance";
 
 function Companies() {
   return (
-    <div className=" container xl:max-w-screen-xl mt-14 flex gap-2  [&_p]:max-w-[100px] items-center justify-between">
+    <div data-aos="fade-up-right" className=" container xl:max-w-screen-xl mt-14 flex gap-2  [&_p]:max-w-[100px] items-center justify-between">
       
         <Apple />
     

@@ -3,37 +3,30 @@ import Fast from "../icons/Fast";
 import Food from "../icons/Food";
 import Choice from "../icons/Choice";
 import Clock from "../icons/Clock";
-import "aos/dist/aos.css";
-import { useEffect } from "react";
-import AOS from "aos";
-function Attributs() {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000, // مدت زمان انیمیشن (اختیاری)
-      once: false, // فقط یک بار انیمیشن را اجرا کند (اختیاری)
-    });
-  }, []);
 
+function Attributs() {
   return (
     <div className="container xl:max-w-screen-xl">
       <p className="text-lg py-2 text-blue-400 font-bold lg:text-lg">Why us?</p>
-      <div className="flex gap-5 [&_p]:w-[45%] [&_p]:text-gray-700 [&_p]:text-xs [&_p]:flex [&_p]:justify-center md:flex-nowrap md:mt-5 md:[&_p]:text-md lg:[&_p]:text-lg [&_p]:flex-col [&_p]:items-center [&_p]:gap-5 [&_p]:p-10 [&_p]:rounded-md [&_p]:shadow-xl justify-center  flex-wrap">
-        <p data-aos="fade-right">
-          <Fast />
-          <span>Fast</span>
-        </p>
-        <p data-aos="fade-right">
-          <Food />
-          <span>Best Restaurants</span>
-        </p>
-        <p data-aos="fade-left">
-          <Choice />
-          <sapn>Your Choice</sapn>
-        </p>
-        <p data-aos="fade-left">
-          <Clock />
-          <sapn>24-7</sapn>
-        </p>
+      <div>
+        <div className="flex gap-5 [&_div]:w-[45%] [&_div]:text-gray-700 [&_div]:text-xs [&_div]:flex [&_div]:justify-center md:flex-nowrap md:mt-5 md:[&_div]:text-md lg:[&_div]:text-lg [&_div]:flex-col [&_div]:items-center [&_div]:gap-5 [&_div]:p-10 [&_div]:rounded-md [&_div]:shadow-xl justify-center  flex-wrap">
+          <div data-aos="flip-left">
+            <Fast />
+            <span>Fast</span>
+          </div>
+          <div data-aos="flip-left">
+            <Food />
+            <span>Best Restaurants</span>
+          </div>
+          <div data-aos="flip-right">
+            <Choice />
+            <sapn>Your Choice</sapn>
+          </div>
+          <div data-aos="flip-right">
+            <Clock />
+            <sapn>24-7</sapn>
+          </div>
+        </div>
       </div>
     </div>
   );
