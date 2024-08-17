@@ -4,7 +4,6 @@ import Dollar from "../icons/Dollar";
 import Link from "next/link";
 
 function Card({ data }) {
-  console.log(data);
   const { id, name, price, details, discount } = data;
   return (
     <div data-aos="zoom-in" className="shadow-xl rounded-xl p-3 border flex flex-col gap-6 w-full h-[480px] text-[var(--ColorText)] sm:w-[45%] md:w-[30%]">

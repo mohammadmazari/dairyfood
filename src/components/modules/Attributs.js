@@ -20,11 +20,11 @@ function Attributs() {
           </div>
           <div data-aos="flip-right">
             <Choice />
-            <sapn>Your Choice</sapn>
+            <span>Your Choice</span>
           </div>
           <div data-aos="flip-right">
             <Clock />
-            <sapn>24-7</sapn>
+            <span>24-7</span>
           </div>
         </div>
       </div>

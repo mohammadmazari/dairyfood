@@ -6,8 +6,8 @@ function Banner() {
       <div className="flex gap-10 justify-start flex-col-reverse md:flex md:justify-between md:items-center text-gray-650 sm:flex-row h-fit  py-10   ">
         <div>
           <h1 className="border-b-4 inline-block pb-3 mb-5 border-blue-400 text-lg font-bold text-gray-700">Dariyshop</h1>
-          <h4 className="text-sm mb-2">container xl:max-w-screen-xl</h4>
-          <p className="font-normal text-xs">
+          <h4 className="text-sm mb-2"> Food Delivery and Takeout!</h4>
+          <p className="font-normal text-xs md:text-md">
             dariyshop is an online food ordering and delivery platform launched
             by Uber in 2014. Meals are delivered by couriers using cars,
             scooters, bikes, or on foot.
