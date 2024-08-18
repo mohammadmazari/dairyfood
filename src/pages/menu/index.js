@@ -2,6 +2,7 @@ import MenuPage from "@/components/template/Menupage";
 import React from "react";
 
 function Menu({ data }) {
+  console.log(data);
   return <MenuPage data={data} />;
 }
 

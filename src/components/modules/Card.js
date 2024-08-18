@@ -8,7 +8,7 @@ function Card({ data }) {
   return (
     <div data-aos="zoom-in" className="shadow-xl rounded-xl p-3 border flex flex-col gap-6 w-full h-[480px] text-[var(--ColorText)] sm:w-[45%] md:w-[30%]">
       <div>
-        <img src={`/images/${id}.jpeg`} />
+        <img src={`/images/${id}.jpeg`} alt={name}/>
       </div>
       <div>
         <div className="flex justify-between py-3">

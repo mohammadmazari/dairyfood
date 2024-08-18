@@ -20,7 +20,7 @@ function DetailsPage({ data }) {
       </h1>
       <div className="mt-10 flex flex-col gap-5 sm:flex-row sm:w-[650px] sm:gap-10 sm:items-center ">
         <div className=" rounded-xl overflow-hidden sm:w-[400px]">
-          <img src={`/images/${id}.jpeg`} />
+          <img src={`/images/${id}.jpeg`} alt={name}/>
         </div>
         <div className="text-[var(--ColorText)] flex flex-col gap-8 px-3">
           <p className="text-[var(--BaceColor)] font-bold text-sm sm:text-lg">
